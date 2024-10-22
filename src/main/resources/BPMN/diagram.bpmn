@@ -12,7 +12,7 @@
     <participant id="sid-527C14AA-A993-4E8C-A9CD-99639DF62466" name="Durchführung Bewerbungsgespräch - &#10;Sachbearbeiter Personal" processRef="sid-D0B76975-2A71-4345-9861-401E7CB66AF6" />
     <participant id="sid-EEF891AC-F8A7-4623-9BA3-F560E2782C9D" name="Führungskraft Fachbereich" />
     <participant id="sid-EED957F8-FF8A-4A3A-918A-944B41FF5D4D" name="Bewerbungsprüfung - &#10;Führungskraft Fachbereich" processRef="sid-83C27632-EEB8-4D1E-8F8B-BFCBBD2B88E8" />
-    <participant id="sid-C583AB0E-16D2-4440-973E-F03090497640" name="Bewerber" />
+    <participant id="sid-C583AB0E-16D2-4440-973E-F03090497640" name="Bewerberin" />
     <participant id="sid-A280AE73-E103-45BC-8078-8ADB6A8AF29C" name="Bewerbungsprüfung - &#10;Sachbearbeiter Personal" processRef="sid-F0778AC8-E593-4FF9-8CCE-C71768DF3E0D" />
     <participant id="sid-19D91440-484D-4E64-BC61-4ADA8E26CA29" name="Bewerber-Beurteilung - &#10;Führungskraft Fachbereich" processRef="sid-D042A222-1E2E-4AE5-A062-1CB78A7CD324" />
     <participant id="sid-C95FEFFE-4759-4ABA-B11D-E4BA65DA268F" name="Bewerber" />
