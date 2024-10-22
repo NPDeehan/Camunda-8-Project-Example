@@ -1,0 +1,23 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "29e9f54"
+  },
+  "schemaVersion": 16,
+  "id": "Form_0xqvvzw",
+  "components": [
+    {
+      "label": "Text field",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_16ugovh",
+        "columns": null
+      },
+      "id": "Field_0300au3",
+      "key": "textfield_7is258"
+    }
+  ],
+  "type": "default"
+}
