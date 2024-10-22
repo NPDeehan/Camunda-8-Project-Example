@@ -135,6 +135,7 @@
       <bpmn:userTask id="Activity_09kw9cx" name="Enter Cancellation Details">
         <bpmn:extensionElements>
           <zeebe:assignmentDefinition assignee="=processOwner" />
+          <zeebe:formDefinition formId="anId" />
         </bpmn:extensionElements>
         <bpmn:incoming>Flow_1xrrtvd</bpmn:incoming>
         <bpmn:outgoing>Flow_0hhztx7</bpmn:outgoing>
