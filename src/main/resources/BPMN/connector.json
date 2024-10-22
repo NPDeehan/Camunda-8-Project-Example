@@ -1,8 +1,8 @@
 {
   "$schema": "https://unpkg.com/@camunda/zeebe-element-templates-json-schema/resources/schema.json",
-  "name": "My REST Outbound Connector - Copy",
+  "name": "connector",
   "id": "49ec6156-bb20-4184-a372-495994d5febd",
-  "version": 1729593298317,
+  "version": 1729593465815,
   "description": "Invoke REST API",
   "documentationRef": "https://docs.camunda.io/docs/components/connectors/protocol/rest/",
   "category": {
