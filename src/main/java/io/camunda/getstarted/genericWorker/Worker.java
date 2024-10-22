@@ -20,24 +20,23 @@ public class Worker {
         SpringApplication.run(Worker.class, args);
     }
 
-    //{"complexity":"High"}
 
     @JobWorker(type = "DoWork")
     public void DoWork(final JobClient client, final ActivatedJob job) {
-        
+
 
 
         Map<String, Object> variablesAsMap = job.getVariablesAsMap();
         Boolean throwError = (Boolean) variablesAsMap.get("throwError");
-        
+
         try {
             System.out.println("Lets find out if i can throw an error "+ throwError);
-           
+
             if(throwError == null || !throwError ) {
-                
+
                 HashMap<String, Object> variables = new HashMap<>();
                 variables.put("variable", "Value");
-               
+
 
                 System.out.println("Going to complete the task now... i hope");
 
@@ -66,10 +65,10 @@ public class Worker {
                 .send();
         }
     }
-    
+
     @JobWorker(type = "DoLongWork")
     public void DoMoreWork(final JobClient client, final ActivatedJob job) {
-        
+
         Map<String, Object> variablesAsMap = job.getVariablesAsMap();
         Integer mins = (Integer) variablesAsMap.get("minutes");
         if(mins == null){
@@ -78,11 +77,11 @@ public class Worker {
 
         System.out.println("This is going to take "+ mins + " minute(s) to execute");
 
-        try{       
+        try{
             TimeUnit.MINUTES.sleep(mins);
         }catch(Exception e){
             System.out.println("Timing issue");
-        }   
+        }
                 client.newCompleteCommand(job.getKey())
                         .send()
                         .exceptionally((throwable -> {
