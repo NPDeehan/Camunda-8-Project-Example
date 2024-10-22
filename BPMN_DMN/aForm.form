@@ -1,4 +1,12 @@
 {
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "29e9f54"
+  },
+  "schemaVersion": 16,
+  "id": "anId",
   "components": [
     {
       "label": "Text field",
@@ -11,13 +19,5 @@
       "key": "textfield_jvb0cn"
     }
   ],
-  "type": "default",
-  "id": "anId",
-  "executionPlatform": "Camunda Cloud",
-  "executionPlatformVersion": "8.5.0",
-  "exporter": {
-    "name": "Camunda Modeler",
-    "version": "5.27.0"
-  },
-  "schemaVersion": 16
+  "type": "default"
 }
